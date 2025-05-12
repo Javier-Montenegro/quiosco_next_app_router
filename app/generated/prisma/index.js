@@ -181,12 +181,11 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": null
+        "value": "postgresql://root:I2xRDMqHlxKsNb8cN3WV6W0Zb7s9nz6z@dpg-d002atili9vc739ftelg-a.virginia-postgres.render.com/quiosconext_cm4a"
       }
     }
   },
