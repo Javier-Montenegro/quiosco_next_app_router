@@ -5,8 +5,6 @@
 /.pnp
 .pnp.*
 .yarn/*
-.prisma/
-@prisma
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
