@@ -9,9 +9,6 @@
     "lint": "next lint",
     "postinstall": "echo Using Prisma schema from ./prisma/schema.prisma && prisma generate"
   },
-  "engines": {
-    "node": "18.20.3"
-  },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
